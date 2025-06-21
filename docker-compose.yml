@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  note-app:
+    build: .
+    container_name: note-app
+    ports:
+      - "8070:80"
